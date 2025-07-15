@@ -1,2 +1,8 @@
-package com.diegonunez.Product_MS.repository;public interface IProductRepository {
-}
+package com.diegonunez.Product_MS.repository;
+
+import com.diegonunez.Product_MS.entity.Product;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+@Repository
+public interface IProductRepository extends JpaRepository<Product, Integer> {}
