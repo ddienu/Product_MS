@@ -31,6 +31,8 @@ build/
 src/main/resources/application-dev.properties
 .idea/*
 .settings/
+Product-MS/src/test/resources/application-test.properties
+
 
 ### VS Code ###
 .vscode/
